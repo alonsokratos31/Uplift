@@ -11,6 +11,8 @@ namespace Uplift.DataAccess.Data.Repository
 
         IFrequencyRepository Frequency { get; }
 
+        IServiceRepository Service { get; }
+
         void Save();
     }
 }
