@@ -19,5 +19,9 @@ namespace Uplift.DataAccess.Data
         public DbSet<Frequency> Frequency { get; set; }
 
         public DbSet<Service> Service { get; set; }
+
+        public DbSet<OrderHeader> OrderHeader { get; set; }
+
+        public DbSet<OrderDetails> orderDetails { get; set; }
     }
 }
