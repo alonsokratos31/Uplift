@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Uplift.DataAccess.Data.Repository;
 using Uplift.Models;
@@ -9,6 +6,7 @@ using Uplift.Models;
 namespace Uplift.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class CategoryController : Controller
     {
         

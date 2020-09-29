@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Uplift.Utility
+﻿namespace Uplift.Utility
 {
     public static class SD
     {
@@ -10,5 +6,9 @@ namespace Uplift.Utility
         public const string StatusSubmitted = "Submitted";
         public const string StatusApproved = "Approved";
         public const string StatusRejected = "Rejected";
+
+        public const string Admin = "Admin";
+        public const string Manager = "Manager";
+
     }
 }

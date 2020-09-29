@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Uplift.DataAccess.Data.Repository;
@@ -12,6 +10,7 @@ using Uplift.Models.ViewModels;
 namespace Uplift.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class ServiceController : Controller
     {
 
