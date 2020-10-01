@@ -19,6 +19,7 @@ namespace Uplift.DataAccess.Data.Repository
             OrderHeader = new OrderHeaderRepository(_db);
             OrderDetails = new OrderDetailsRepository(_db);
             User = new UserRepository(_db);
+            SP_Call = new SP_Call(_db);
 
         }
 
@@ -33,6 +34,8 @@ namespace Uplift.DataAccess.Data.Repository
         public IOrderDetailsRepository OrderDetails { get; private set; }
 
         public IUserRepository User { get; }
+
+        public ISP_Call SP_Call { get; private set; }
 
         //ICategoryRepository IUniOfWork.Category => throw new NotImplementedException();
 

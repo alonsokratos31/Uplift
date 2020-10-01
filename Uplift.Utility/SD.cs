@@ -9,6 +9,7 @@
 
         public const string Admin = "Admin";
         public const string Manager = "Manager";
+        public const string usp_GetAllCategory = "usp_GetAllCategory";
 
     }
 }

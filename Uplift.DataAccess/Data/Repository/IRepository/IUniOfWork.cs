@@ -17,6 +17,8 @@ namespace Uplift.DataAccess.Data.Repository
 
         IOrderHeaderRepository OrderHeader { get; }
 
+        ISP_Call SP_Call { get; }
+
         IUserRepository User { get; }
 
         void Save();
